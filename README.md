@@ -23,7 +23,7 @@ This repository contains a simple script which can be used to create a new rever
 
 ### 1. Download The Proxy Script
 ```shell
-wget https://raw.githubusercontent.com/varunsridharan/cpanel-apache-proxy/main/proxy.sh
+wget https://raw.githubusercontent.com/jonhteper/cpanel-apache-proxy/main/proxy.sh
 ```
 
 

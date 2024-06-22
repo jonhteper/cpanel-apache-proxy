@@ -43,8 +43,8 @@ echo "
 ProxyPass \"/.well-known\"  !
 # DO NOT REMOVE ABOVE LINE. IT USED TO AUTO RENEW SSL VIA CPANEL
 
-ProxyPass \"/\"  \"$LOCAL\"
-ProxyPassReverse \"/\"  \"$LOCAL\"
+ProxyPass \"/\"  \"$LOCAL/\"
+ProxyPassReverse \"/\"  \"$LOCAL/\"
 " > $STD_FILE
 
 echo " include $STD_FILE"  > $SSL_FILE
